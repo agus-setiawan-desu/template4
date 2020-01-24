@@ -1,0 +1,32 @@
+{
+  "name": "fireApp",
+  "version": "1.0.0",
+  "description": "My good Nuxt.js project",
+  "author": "Agus Setiawan",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env HOST=localhost PORT=3040 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/toast": "^3.0.1",
+    "cross-env": "^5.2.0",
+    "firebase": "^4.12.0",
+    "nuxt": "^2.0.0",
+    "slugify": "^1.3.1",
+    "store": "^2.0.12",
+    "vee-validate": "^2.0.6",
+    "vue-swal": "^0.1.0",
+    "vue-warehouse": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
+
